@@ -1,4 +1,4 @@
-# Perpetual Calendar - Interactive Explorer
+# Perpetual Calendar - Interactive Explorer v2.0
 
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
