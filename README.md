@@ -113,8 +113,11 @@ Use preset buttons to instantly visit:
 
 > **Note**: Future predictions reflect forecasts made in June 2020 and are included for educational purposes.
 
-## 📁 Project Structure
+## 🚀 Live Demo
 
+**[👉 Click here to try the Live Demo](https://tharun-ship-it.github.io/perpetual-calendar/)**
+
+## 📁 Project Structure
 ```
 perpetual-calendar/
 ├── src/
@@ -130,6 +133,7 @@ perpetual-calendar/
 ├── .github/
 │   └── workflows/
 │       └── ci.yml           # GitHub Actions CI/CD
+├── index.html               # Web version (Live Demo)
 ├── .gitignore
 ├── LICENSE                  # MIT License
 ├── README.md
