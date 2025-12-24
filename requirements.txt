@@ -1,0 +1,16 @@
+# Perpetual Calendar - Interactive Explorer
+# ==========================================
+# No external dependencies required!
+#
+# This application uses only Python standard library modules:
+# - tkinter (GUI framework)
+# - calendar (date calculations)
+# - datetime (current date handling)
+# - typing (type annotations)
+#
+# ------------------------------------------
+# Development dependencies (optional):
+# ------------------------------------------
+pytest>=7.0.0
+black>=22.0.0
+mypy>=0.950

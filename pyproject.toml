@@ -1,0 +1,72 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "perpetual-calendar"
+version = "2.0.0"
+description = "An interactive GUI calendar application to explore any date from 1500 to 9999 with historical events and future predictions"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.7"
+authors = [
+    {name = "Tharun Ponnam", email = "tharunponnam007@gmail.com"}
+]
+keywords = [
+    "calendar",
+    "gui",
+    "tkinter",
+    "historical-events",
+    "interactive",
+    "education",
+    "date",
+    "perpetual-calendar"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: X11 Applications",
+    "Environment :: Win32 (MS Windows)",
+    "Environment :: MacOS X",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Utilities",
+    "Topic :: Education",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=22.0.0",
+    "mypy>=0.950",
+]
+
+[project.scripts]
+perpetual-calendar = "src.calendar_app:main"
+
+[project.urls]
+Homepage = "https://github.com/tharun-ship-it/perpetual-calendar"
+Repository = "https://github.com/tharun-ship-it/perpetual-calendar.git"
+Issues = "https://github.com/tharun-ship-it/perpetual-calendar/issues"
+
+[tool.black]
+line-length = 100
+target-version = ['py37', 'py38', 'py39', 'py310', 'py311']
+include = '\.pyi?$'
+
+[tool.mypy]
+python_version = "3.7"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
