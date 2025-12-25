@@ -1,10 +1,13 @@
 # Perpetual Calendar - Interactive Explorer
 
-[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Python 3.7+](https://img.shields.io/badge/Python-3.7+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/)
+[![Tkinter](https://img.shields.io/badge/Tkinter-GUI-FF6B6B?style=for-the-badge)](https://docs.python.org/3/library/tkinter.html)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![License: MIT](https://img.shields.io/badge/License-MIT-00D9A5?style=for-the-badge)](LICENSE)
 
-A comprehensive, interactive calendar application built with Python and Tkinter. Explore any date from 1500 to 9999, discover historical events, and see future technology predictions — all through an intuitive graphical interface.
+A comprehensive, interactive calendar application built with **Python and Tkinter** for desktop, with an **HTML5/CSS3/JavaScript** web demo for instant browser access. Explore any date from 1500 to 9999, discover **100+ events** spanning historical developments and future technology predictions — all through an intuitive graphical interface.
 
 <p align="center">
   <img src="assets/screenshot.png" alt="Perpetual Calendar Screenshot" width="900">
@@ -121,22 +124,22 @@ Use preset buttons to instantly visit:
 ```
 perpetual-calendar-interactive-explorer/
 ├── src/
-│   ├── __init__.py          # Package initialization
-│   └── calendar_app.py      # Main application (800+ lines)
+│   ├── __init__.py          # Package initialization (Python)
+│   └── calendar_app.py      # Main desktop app - 800+ lines (Python/Tkinter)
 ├── tests/
 │   ├── __init__.py
-│   └── test_calendar.py     # Unit tests
+│   └── test_calendar.py     # Unit tests (Python)
 ├── docs/
 │   └── DESIGN.md            # Architecture documentation
 ├── assets/
 │   └── screenshot.png       # Application screenshot
 ├── .github/
 │   └── workflows/
-│       └── ci.yml           # GitHub Actions CI/CD
-├── index.html               # Web version (Live Demo)
+│       └── ci.yml           # GitHub Actions CI/CD (YAML)
+├── index.html               # Live web demo (HTML + CSS + JavaScript)
 ├── .gitignore
 ├── LICENSE                  # MIT License
-├── README.md
+├── README.md                # Documentation (Markdown)
 ├── CONTRIBUTING.md
 ├── pyproject.toml
 └── requirements.txt
@@ -212,4 +215,8 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 ---
 
-*Created: June 2020*
+**⭐ If you find this project useful, please consider giving it a star!**
+
+* [🔗 Live Demo](https://tharun-ship-it.github.io/perpetual-calendar-interactive-explorer/)
+* [🐛 Report Bug](https://github.com/tharun-ship-it/perpetual-calendar-interactive-explorer/issues)
+* [✨ Request Feature](https://github.com/tharun-ship-it/perpetual-calendar-interactive-explorer/pulls)
